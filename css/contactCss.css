@@ -1,0 +1,169 @@
+/*Main Section Of Contact*/
+
+section  .main-contact {
+    background-color: #bc53ff;
+    text-align : center;
+    color: #232;
+}
+
+/*h1 element of Secton Contact*/
+section .main-contact > h1 {
+    font-family: Berlin Sans FB, Bodoni MT Condensed, sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+
+.contact-border {
+    border: 2px solid #bc53ff;
+    padding-bottom: 20px;
+}
+
+/*========= FEEDBACK SECTION=======*/
+#feedback {
+    border:2px solid #232;
+    border-radius:5px;
+    font-family: georgia, sans-serif;
+    font-size: 14px;
+    color: #232;
+    padding: 10px 20px 10px 0;
+    background-image: url("../images/teleicon.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-style: italic;
+    margin-top:20px;
+}
+#feedback ul {
+list-style:none;
+}
+#feedback >  ul li:last-child {
+text-align: center;
+}
+#feedback > ul li:first-child {
+    margin: 13px 0;
+    text-align: center;
+}
+/*=====Feedback Input======*/
+#feedback input#name {
+background: url(../images/person.png) 10px / 17px no-repeat;
+}
+#feedback input#email {
+background: url(../images/email.png) 10px / 18px no-repeat;
+}
+#feedback textarea#comment {
+background: url(../images/opinion.png) 6px / 26px no-repeat;
+}
+#name, #email, #comment{
+width: 90%;
+margin-bottom: 25px;
+padding-left: 40px;
+height: 25px;
+border: 1px solid black;
+opacity: 0.8;
+}
+#comment {
+height: 60px;
+margin-bottom: 20px;
+opacity: 1;
+}
+#email {
+opacity: 1;
+}
+
+/*===========================================
+    feedback Button Css Styling
+=============================================*/
+
+button {
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 10px;
+    font-family: "Berlin Sans FB", cursive;
+    font-size: 12pt;
+    padding: 10px;
+    color: #232;
+    text-align: center;
+    border: 3px solid #bc53ff;
+    text-decoration: none;
+}
+
+    /*=============================
+        CONTACT AND EMAIL SECTION
+    ==============================*/
+.contact-smile {
+    margin: 20px 0 0 15px ;
+    border: 2px solid #232;
+    width: 47%;
+    height: 427px;
+    text-align: center;
+    border-radius: 5px;
+}
+.contact-smile i {
+    display: inline;
+}
+.contact-smile a {
+    color: #232;
+}
+/*hr line between phone and email */
+.hr-contact {
+    width: 20%;
+    border: 3px solid #bc53ff;
+}
+/*mobile icon image*/
+.fa-mobile {
+    display: inline;
+    color: #232;
+    width: 25px;
+}
+/*Mobile Number OR Emial Css*/
+.mob-email {
+    display: inline;
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px){
+
+    /*Main Section Of Contact*/
+    #contact {
+        margin: 0 10px;
+    }
+    section  .main-contact {
+        background-color: #bc53ff;
+        text-align : center;
+        color: #232;
+    }
+
+    /*h1 element of Secton Contact*/
+    section .main-contact > h1 {
+        font-family: Berlin Sans FB, Bodoni MT Condensed, sans-serif;
+        color: white;
+        margin: 0;
+        text-transform: capitalize;
+    }
+
+    .contact-border {
+        border: 2px solid #bc53ff;
+        padding-bottom: 20px;
+    }
+
+    /*CONTACT AND EMAIL SECTION*/
+    .contact-smile {
+        margin: 20px 15px;
+        border: 2px solid #232;
+        width: 96%;
+        height: 427px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+
+    /*Mobile Number OR Emial Css*/
+    .mob-email {
+        display: block;
+        position: static;
+        text-align: center;
+    }
+}

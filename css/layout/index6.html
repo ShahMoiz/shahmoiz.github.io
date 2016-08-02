@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<link href="Css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">-->
+    <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="header.css" rel="stylesheet" type="text/css">
+    <link href="aboutCss.css" rel="stylesheet" type="text/css">
+    <link href="SkillsCss.css" rel="stylesheet" type="text/css">
+    <link href="Css/contactCss.css" rel="stylesheet" type="text/css">
+    <link href="Css/creative.css" rel="stylesheet" type="text/css">
+    <link href="Css/navbar.css" rel="stylesheet" type="text/css">
+    <link href="Css/footer.css" rel="stylesheet" type="text/css">
+    <link href="Css/progressCss.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="Css/customAlert.css" rel="stylesheet" type="text/css">
+
+    <script src="js/customAlert.js.js"></script>
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link href="headerCss.css" rel="stylesheet" type="text/css">
+
+    <style>
+        body {
+            background-color: transparent;
+        }
+        a.page-scroll {
+            transition-delay: .3s;
+        }
+        .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+            background-color:#bc53ff;
+        }
+    </style>
+    <script>
+        var mdtc = '<div class="web-img"><img src="images/1.jpg"/><br>Link:<a href="">https://www.mdtc.com.ua</a> </div><div class="description"><h3>Short Description</h3><p>MDTC in Under Construction.. This is a Single Page Website and this Website Concept is to provide the highest quality security products at the most competitive pricing in the industry to security equipment companies and national retail outlets. </p> <a type="button" href="">Go to Website</a> </div>';
+        var golide = '<div class="web-img"><img src="images/2.jpg"/><br>Link:<a href="">golidewatches.netau.net</a> </div><div class="description"><h3>Short Description</h3><p>Golide Watches International (GWT) in Under Construction.. This is MultiPage Website and this Website Concept is to sell online watches of different Watches Brands and make easy to search all watches in one time.. </p> <a type="button" href="">Go to Website</a> </div>';
+    </script>
+
+    <style>
+        /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+
+
+        #skills {
+            text-align: center;
+            padding-bottom: 32px;
+        }
+
+
+
+        /**
+        * Function to generate procentual progress classes
+        * .p-1 1% -> p-100 100%
+        **/
+        .p-1 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(93.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-2 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(97.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-3 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(100.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-4 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(104.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-5 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(108deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-6 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(111.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-7 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(115.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-8 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(118.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-9 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(122.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-10 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(126deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-11 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(129.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-12 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(133.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-13 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(136.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-14 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(140.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-15 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(144deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-16 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(147.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-17 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(151.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-18 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(154.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-19 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(158.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-20 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(162deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-21 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(165.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-22 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(169.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-23 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(172.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-24 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(176.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-25 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(180deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-26 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(183.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-27 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(187.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-28 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(190.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-29 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(194.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-30 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(198deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-31 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(201.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-32 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(205.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-33 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(208.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-34 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(212.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-35 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(216deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-36 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(219.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-37 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(223.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-38 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(226.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-39 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(230.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-40 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(234deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-41 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(237.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-42 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(241.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-43 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(244.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-44 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(248.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-45 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(252deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-46 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(255.6deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-47 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(259.2deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-48 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(262.8deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-49 {
+            background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(266.4deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-50 {
+            background-image: linear-gradient(-90deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-51 {
+            background-image: linear-gradient(-86.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-52 {
+            background-image: linear-gradient(-82.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-53 {
+            background-image: linear-gradient(-79.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-54 {
+            background-image: linear-gradient(-75.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-55 {
+            background-image: linear-gradient(-72deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-56 {
+            background-image: linear-gradient(-68.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-57 {
+            background-image: linear-gradient(-64.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-58 {
+            background-image: linear-gradient(-61.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-59 {
+            background-image: linear-gradient(-57.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-60 {
+            background-image: linear-gradient(-54deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-61 {
+            background-image: linear-gradient(-50.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-62 {
+            background-image: linear-gradient(-46.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-63 {
+            background-image: linear-gradient(-43.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-64 {
+            background-image: linear-gradient(-39.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-65 {
+            background-image: linear-gradient(-36deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-66 {
+            background-image: linear-gradient(-32.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-67 {
+            background-image: linear-gradient(-28.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-68 {
+            background-image: linear-gradient(-25.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-69 {
+            background-image: linear-gradient(-21.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-70 {
+            background-image: linear-gradient(-18deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-71 {
+            background-image: linear-gradient(-14.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-72 {
+            background-image: linear-gradient(-10.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-73 {
+            background-image: linear-gradient(-7.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-74 {
+            background-image: linear-gradient(-3.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-75 {
+            background-image: linear-gradient(0deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-76 {
+            background-image: linear-gradient(3.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-77 {
+            background-image: linear-gradient(7.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-78 {
+            background-image: linear-gradient(10.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-79 {
+            background-image: linear-gradient(14.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-80 {
+            background-image: linear-gradient(18deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-81 {
+            background-image: linear-gradient(21.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-82 {
+            background-image: linear-gradient(25.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-83 {
+            background-image: linear-gradient(28.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-84 {
+            background-image: linear-gradient(32.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-85 {
+            background-image: linear-gradient(36deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-86 {
+            background-image: linear-gradient(39.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-87 {
+            background-image: linear-gradient(43.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-88 {
+            background-image: linear-gradient(46.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-89 {
+            background-image: linear-gradient(50.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-90 {
+            background-image: linear-gradient(54deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-91 {
+            background-image: linear-gradient(57.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-92 {
+            background-image: linear-gradient(61.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-93 {
+            background-image: linear-gradient(64.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-94 {
+            background-image: linear-gradient(68.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-95 {
+            background-image: linear-gradient(72deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-96 {
+            background-image: linear-gradient(75.6deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-97 {
+            background-image: linear-gradient(79.2deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-98 {
+            background-image: linear-gradient(82.8deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-99 {
+            background-image: linear-gradient(86.4deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+        .p-100 {
+            background-image: linear-gradient(90deg, #bc53ff 50%, transparent 50%, transparent), linear-gradient(270deg, #bc53ff 50%, #efefef 50%, #efefef);
+        }
+
+    </style>
+
+
+    <script src="js/prefixfree.min.js"></script>
+</head>
+<body>
+        <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div id="logo">
+                    <a class="navbar-brand page-scroll animated bounceInRight" href="#header"><img width="30px" style="display:inline;"src="images/abdul.jpg">Abdul<span style="color:#bc53ff">Moiz</span><p>Programmer,Designer,Developer</p></a>
+                    </div></div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#about" class="page-scroll animated bounce" id="home" data-wow-delay=".3s">About</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="page-scroll animated bounce" data-wow-delay=".1s">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#skills" class="page-scroll animated bounce" data-wow-delay=".2s">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="page-scroll animated bounce">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+        </nav>
+
+        <header id="header">
+            <div class="header-content">
+                <!--<h1 class="wow bounceInDown" data-wow-delay=".2s">HI<span >!</span></h1>-->
+                <h1 class="wow rotateIn" data-wow-delay=".6s">Welcome To <span class="colr">My</span> Portfolio</h1>
+                <hr id="hr-header">
+                <p>We're a Creative Developers helping to Promote your Comany and Start-ups make friend with
+                    throughful design and ingenious Technology</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </header>
+        <section id="about">
+            <div class="container"  id="div-about">
+                <h1>About Me</h1>
+                <p>Self Introduction</p>
+                <img src="images/abdul_about.bmp">
+                <div class="intro">
+                    <img src="images/bg-triangle.png"><h3>Abdul Moiz</h3>
+                    <a href="#">Web Designer & Developer</a>
+                    <p>this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me.  this caption is made by me.  this caption is made by me.  this caption is made by me.  this caption is made by me. </p>
+                    <p>this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me. this caption is made by me.  this caption is made by me.  this caption is made by me.  this caption is made by me.  this caption is made by me. </p>
+                </div>
+                <button type="button" class="button btn-info btn-block btn-sm wow shake">More Info</button>
+            </div>
+        </section>
+
+        <div id="dialogoverlay"></div>
+        <div id="dialogBox">
+            <div>
+                <div id="dialogBoxHead"></div>
+                <div id="dialogBoxBody"></div>
+                <div id="dialogBoxFooter"></div>
+            </div>
+        </div>
+        <section class="no-padding" id="portfolio">
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="javascript:void(0)" class="portfolio-box">
+                            <img src="images/1.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption" onclick="Alert.render('Musaddiq Darwesh Trading Company Llc', mdtc)" >
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Website
+                                    </div>
+                                    <div class="project-name">
+                                        MDTC.inc
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="javascript:void(0)" class="portfolio-box">
+                            <img src="images/2.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption" onclick="Alert.render('Golide Watches International (GwT)', golide)" >
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Website
+                                    </div>
+                                    <div class="project-name">
+                                        Golide Watches
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="images/3.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Website
+                                    </div>
+                                    <div class="project-name">
+                                        Flow Login
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="images/4.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Website
+                                    </div>
+                                    <div class="project-name">
+                                        Travel Mate
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="images/5.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Website
+                                    </div>
+                                    <div class="project-name">
+                                        Janware
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="images/6.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Coming Soon
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" style="background-color: #292c2f;">
+            <div class="container">
+                <div class="text-center wow tada" data-wow-delay="1s" style=" font-family: georgia, sans-serif;">
+                    <h1 class="text-center">My Skills In Diffrent <span style="font-weight: bold;">Programming</span> Language</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Html5</h3>
+                        <div class="avatar-container p-95">
+                            <img src="images/html5.jpg" alt="" class="avatar"/>
+                        </div><!--.avatar-container-->
+                    </div>
+
+                    <div class="col-sm-4">
+                        <h3>CSS3</h3>
+                        <div class="avatar-container p-90">
+                            <img src="images/css3.jpg" alt="" class="avatar"/>
+                        </div><!--.avatar-container-->
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h3>JavaScript</h3>
+                        <div class="avatar-container p-68">
+                            <img src="images/javascript.jpg" alt="" class="avatar"/>
+                        </div><!--.avatar-container-->
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h3>TypeScript</h3>
+                        <div class="avatar-container p-20">
+                            <img src="images/typescript.png" alt="" class="avatar"/>
+                        </div><!--.avatar-container-->
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h3>jQuery</h3>
+                        <div class="avatar-container p-60">
+                            <img src="images/jq.png" alt="" class="avatar"/>
+                        </div><!--.avatar-container-->
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h3>BootStarp</h3>
+                        <div class="avatar-container p-82">
+                            <img src="images/bootstrap.png" alt="" class="avatar"/>
+                        </div><!--.avatar-container-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="container contact-border">
+                <div class="row">
+                    <div class="col-sm-12 main-contact">
+                        <h1>Let's get in touch</h1><!--Main Heading-->
+                        <p>For a better service and best Product</p>
+                    </div>
+
+                    <div class="col-sm-6 contact-smile"><!--First Portion of Contact-->
+                        <h2 class="wow bounceInLeft" data-wow-delay="1s" style="text-align: center">Contact With Smile</h2>
+                        <hr class="hr-contact"/><!--Coloured Line-->
+                        <p>United Designers is a family backed creative digital agency. Our culture is rooted in a deep purpose, solid values, and inspiring philosophy.
+                            Our services are focused towards producing outcomes, not outputs. We start with the heart, and always put
+                            strategy before execution. We have worked with companies of all sizes. Our work is our footprint.
+                            It's our business, our passion, our calling, and our expertise.</p>
+
+                          <!--Mobile Icon and Number-->
+                        <p class="fa fa-mobile fa-3x mob-email-1"></p>
+                        <p class="mob-email" style="bottom: 10px"><a href="#">(+92)-334-232-1189</a></p>
+
+                        <hr style="border: 2px solid #bc53ff; width: 10%;"><!--Coloured Line-->
+
+                       <!--Email Icon and Email-->
+                        <p class="fa fa-envelope-o fa-2x mob-email-1" style="animation-delay: .2s"></p>
+                        <p class="mob-email"><a href="mailto:abdulmoiz19994@gamil.com" class="mob-email">abdulmoiz19994@gamil.com</a></p>
+                    </div><!--First Portion of Contact "Closed"-->
+
+
+                    <div class="col-sm-6"><!--Second Portion OF Contact-->
+                        <form method="get"><!--Form of User Feedback-->
+                            <div id="feedback">
+                                <ul>
+                                    <li class="h2 wow ">Feedback</li>
+                                    <hr class="hr-contact"/>
+                                    <li class="name">Name:</li>
+                                    <li><input type="text" name="name" id="name" placeholder="Nick or Name" required/></li>
+                                    <li class="email">Email:</li>
+                                    <li><input type="email" name="email" id="email" placeholder="Enter Email" required/></li>
+                                    <li class="feedback">Feedback:</li>
+                                    <li><textarea type="comment" name="comment" id="comment" rows="4" placeholder="Your Feedback is Important to Improve Our Performance"></textarea></li>
+                                                                <!--Button-->
+                                    <li><button type="button" id="button" class=" wow bounceInUp" data-wow-delay=".3s" onclick="opinion()">Send Your Feedback</button></li>
+                                </ul>
+                            </div><!--div closed of #feedback-->
+
+                        </form><!--Form div "Closed"-->
+                    </div><!--Second Portion of Contact "Closed"-->
+                </div><!--Section .row div "Closed"-->
+            </div><!--Section .container div "Closed"-->
+        </section><!--#Contact SECTION "Closed"-->
+
+        <section>
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h3>Location</h3>
+                            <p>3481 Amil colony<br>Jamshed Road, IROP 72500 </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3 class="web">Around the Web</h3>
+                            <ul class="list-inline social">
+                                <li>
+                                    <a href="#" class="btn-social fb"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social google"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social twitter"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social dribbble"><i class="fa fa-fw fa-dribbble"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social git"><i class="fa fa-fw fa-git"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3>About My Work</h3>
+                            <p>My Work is My Passion and<br>I Love What I do and Work With You</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 text-center copy" >
+                <p>Copyright<i class=" fa fa-fw fa-copyright"></i>Designed and Developed By <a href="#page-top">Abdul Moiz</a></p>
+            </div>
+        </section>
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/wow.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/creative.js"></script>
+        <script src="js/index.js"></script>
+        <script>
+            (function($){
+                new WOW().init();
+
+
+                var JQuaryBasic = '$().();';
+                var animationName = 'animated pulse';
+                var animationName1 = 'animated bounceInUp';
+
+                var animationEnd = 'webkitAnimationEnd mozkitAnimationEnd MSAnimationEnd animationend oaanimationend';
+                $('input[name=name]').on('click',function(){
+                    $('.name').addClass(animationName).one(animationEnd, function(){
+                        $(this).removeClass(animationName);
+                    });
+                });
+
+                $('input[name=email]').on('click' , function(){
+                    $('.email').addClass(animationName).one(animationEnd, function(){
+                        $(this).removeClass(animationName);
+                    });
+                });
+
+                $('textarea[name=comment]').on('click' , function(){
+                    $('.feedback').addClass(animationName).one(animationEnd, function(){
+                        $(this).removeClass(animationName);
+                    });
+                });
+
+
+
+                $('div.contact-smile').on('click', function(){
+                    $('.mob-email-1').addClass(animationName1).one(animationEnd, function(){
+                        $(this).removeClass(animationName1);
+                    });
+                });
+
+            })(jQuery);
+
+
+        </script>
+
+        <script>
+            $(document).ready(function(){
+
+//                $('a.page-scroll').bind('click', function(event) {
+//                    var $anchor = $(this);
+//                    $('html, body').stop().animate({
+//                        scrollTop: ($($anchor.attr('href')).offset().top - 50)
+//                    }, 1250, 'easeInOutExpo');
+//                    event.preventDefault();
+//                });
+
+                $('a').click(function(){
+                    $('html, body').animate({
+                        scrollTop: $( $.attr(this, 'href') ).offset().top
+                    }, 600);
+                    return false;
+                });
+
+                $('body').scrollspy({
+                    target: '#bs-example-navbar-collapse-1',
+                    offset: 60
+                });
+            })
+        </script>
+
+        <!--Scroll Nav Height JavaScript-->
+        <script>
+        function scroll() {
+        var height = document.getElementById('main-nav');
+        var ypos = window.pageYOffset;
+        var logo = document.getElementsByClassName('navbar-brand');
+        if(ypos > 150) {
+        height.style.fontSize = '14px';
+        logo.style.fontSize = '14px;'
+        }
+        else{
+        height.style.fontSize = '15px';
+        }
+        }
+        window.addEventListener('scroll', scroll)
+        </script>
+</body>
+</html>

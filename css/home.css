@@ -1,0 +1,216 @@
+.container {
+    padding: 0;
+    margin:0;
+}
+
+/*.header-user-dropdown .header-limiter .header-dropdown {*/
+    /*position: relative;*/
+/*}*/
+/*.header-user-dropdown .header-limiter .header-dropdown:before {*/
+    /*content: '';*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*position: absolute;*/
+/*}*/
+
+                            /*/!*=======HEADER=======*!/*/
+header {
+    background-color: #292c2f;
+    top: 0;
+    position: fixed;
+    transition-duration: .8s;
+
+}
+.header-user-dropdown .header-limiter {
+    /*border: 2px solid peru;*/
+    /*height: 60px;*/
+    /*width:98%;*/
+}
+
+/*======My Name Logo With Image Css====*/
+.header-user-dropdown .header-limiter h1{
+    width: 200px;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+.header-user-dropdown .header-limiter h1 a {
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+.header-user-dropdown .header-limiter img {
+    width: 20px;
+    height:20px;
+}
+.header-user-dropdown .header-limiter span {
+    color: #bc53ff;
+}
+                        /*======All Nav Css======*/
+.header-limiter nav  {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+
+}
+.col-md-5 {
+    background-color: khaki;
+}
+.header-user-dropdown .header-limiter nav a {
+    color: white;
+    opacity: .9;
+    font-weight: bold;
+    display: inline-block;
+    font-family: "Comic Sans MS", "Bradley Hand ITC", cursive;
+    margin: 0 5px;
+    word-spacing: 1px;
+}
+.header-user-dropdown .header-limiter nav a:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: #bc53ff;
+}
+
+                    /*/!*=====CSS FOR *** this symbol in "My Skills" nav======*!/*/
+
+.header-user-dropdown .header-limiter nav a span {
+    color: #aefffd;
+    font-weight: bold;
+    font-family: "Book Antiqua", serif;
+    font-size: 12px;
+    position: absolute;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    top: -7px;
+    left: 125px;
+}
+                                        /*/!*=====CSS FOR DROPDWON=========*!/*/
+.header-user-dropdown .header-limiter span.header-dropdown ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    right: 125px;
+    top: 10px;
+    background-color: #292c2f;
+    transition-duration: .5s;
+}
+.header-user-dropdown .header-limiter span.header-dropdown ul:hover {
+}
+.header-user-dropdown .header-limiter .header-dropdown:hover ul,
+.header-user-dropdown .header-limiter .header-dropdown:active ul,
+.header-user-dropdown .header-limiter .header-dropdown.show ul {
+    display: block;
+}
+
+header {
+}
+.header-user-dropdown .myImage {
+    /*transition-duration: .8s;*/
+}
+.header-user-dropdown .myImage:hover {
+    /*width: 50px;*/
+    /*height: 50px;*/
+}
+header {
+    transition-duration: .8s;
+    height: 70px;
+}
+header:hover {
+    height: 90px;
+}
+
+.text {
+    font-family: "Comic Sans MS", "Bradley Hand ITC", cursive;
+    font-size: 16px;
+    color: white;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 60px;
+    left: 27%;
+    right: 20%;
+    transition-duration: .8s;
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+    font-family: "Comic Sans MS", "Bradley Hand ITC", cursive;
+    font-size: 16px;
+    color: white;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 60px;
+    left: 27%;
+    right: 20%;
+    transition-duration: .8s;
+}
+.visible span {
+    color: #bc53ff;
+}
+
+.hidden {
+    visibility: hidden;
+}
+@media (max-width: 940px) {
+
+    .text {
+        font-family: "Comic Sans MS", "Bradley Hand ITC", cursive;
+        font-size: 14px;
+        color: white;
+        /*font-weight: bold;*/
+        position: absolute;
+        top: 60px;
+        left: 10%;
+        right: 20%;
+        transition-duration: .8s;
+        visibility: hidden;
+    }
+    .visible {
+        visibility: visible;
+        font-family: "Comic Sans MS", "Bradley Hand ITC", cursive;
+        font-size: 14px;
+        color: white;
+        /*font-weight: bold;*/
+        position: absolute;
+        top: 60px;
+        left: 10%;
+        right: 20%;
+        transition-duration: .8s;
+    }
+    .visible span {
+        color: #bc53ff;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+}
+@media (max-width: 692px ) {
+    .text {
+        font-family: "Comic Sans MS", "Bradley Hand ITC", cursive;
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        transition-duration: .8s;
+        visibility: hidden;
+    }
+    .visible {
+        visibility: visible;
+        font-family: "Comic Sans MS", "Bradley Hand ITC", cursive;
+        font-size: 14px;
+        color: white;
+        /*font-weight: bold;*/
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        transition-duration: .8s;
+    }
+    .visible span {
+        color: #bc53ff;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+}

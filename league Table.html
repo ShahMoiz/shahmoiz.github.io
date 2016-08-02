@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            padding:0;
+        }
+        header {
+            background-image: url(images/bg-header.jpg);
+            color: white;
+            height: 70px;
+            text-align: center;
+            margin: 0 0  20px 0;
+        }
+        header h1 {
+            padding: 10px 0 0 0;
+        }
+        ol {
+            background-color: gray;
+            color: white;
+            width: 250px;
+            margin: 0 auto;
+
+        }
+        ol li {
+            padding: 20px;
+        }
+
+                     /*This code would do the job just fine, but that’s a lot of selectors—*/
+        /*ol li:first-child,*/
+        /*ol li:nth-child(2){*/
+            /*background: green;*/
+            /*color: white;*/
+            /*font-weight: bold;*/
+        /*}*/
+
+        /*ol li:nth-child(3),li:nth-child(4),li:nth-child(5),li:nth-child(6) {*/
+            /*background-color: blue;*/
+        /*}*/
+        /*ol li:last-child, li:nth-last-child(2) {*/
+            /*background-color: red;*/
+        /*}*/
+
+                                         /*This Code Is Awesome*/
+
+        ol li:nth-child(-n+2) {
+            background: green;
+        }
+        ol li:nth-child(-n+6):nth-child(n+3) {
+            background-color: blue;
+        }
+        ol li:nth-last-child(-n+2) {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>League Table With nth Child</h1>
+</header>
+<ol>
+    <li>Liverpool</li>
+    <li>Manchester City</li>
+    <li>Arsenal</li>
+    <li>Chelsea</li>
+    <li>Manchester United</li>
+    <li>Everton</li>
+    <li>Newcastle</li>
+    <li>Tottenham</li>
+    <li>Fulham</li>
+    <li>Aston Villa</li>
+</ol>
+</body>
+</html>

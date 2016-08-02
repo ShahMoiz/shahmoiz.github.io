@@ -1,0 +1,1240 @@
+/*=======================
+MAIN
+========================*/
+
+:root {
+    --mainColor: #bc63ff;
+    --Hfont: Georgia, "Times New Roman", Times, serif;
+    --Pfont: "open sans", Tahoma;
+
+}
+html,
+body {
+    width: 100%;
+    font-family: var(--Hfont);
+    height: 100%;
+    margin: 0 auto;
+}
+p {
+    letter-spacing:0.1em;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-variant: small-caps;
+    font-family: var(--Pfont);
+}
+h1 {
+    font-family: var(--Hfont);
+    color: #222;
+}
+
+
+
+/*MAIN*/
+#about {
+    background-color: var(--mainColor);
+    width: 100%;
+    padding: 20px 0;
+}
+#about > #div-about {
+    width: 95%;
+    background-color: white;
+    padding:10px 20px;
+}
+
+/*SELF INTRODUCTION*/
+#about > #div-about > p {
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 10px;
+    font-weight: lighter;
+    position: relative;
+    top: -10px;
+    left: 0;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    letter-spacing: 0.3em
+}
+
+#about > #div-about > p:first-letter{
+    font-size: 12px;
+}
+
+/*MY IMAGE ON ABOUT SECTION*/
+#about > #div-about > img {
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+
+/*BASIC PARAGRAPH OF ABOUT SECTION*/
+#about > #div-about > .intro {
+    display: inline-block;
+    width: 70%;
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+}
+
+
+/*WEB DESIGNER OR DEVELOPER*/
+#about > #div-about > .intro > a {
+    font-family: "Lucida Grande", Tahoma;
+    font-variant: small-caps;
+    position: relative;
+    top: -10px;
+}
+
+/*ABDUL MOIZ*/
+#about > #div-about > .intro > h3 {
+    font-family: var(--Hfont);
+    font-variant: small-caps;
+    color: #666666;
+    margin-left: 30px;
+
+}
+
+/*TRIANGLE IMAGE*/
+#about > #div-about > .intro > img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 18px;
+}
+
+/*BUTTON ON ABOUT SECTION*/
+#about button {
+    text-align:center;
+    margin: 0 auto;
+    -moz-box-shadow:inset 0px -1px 20px -9px #ffffff;
+    -webkit-box-shadow:inset 0px -1px 20px -9px #ffffff;
+    box-shadow:inset 0px -1px 20px -9px #ffffff;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+    background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+    background-color:#ededed;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:2px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Times New Roman;
+    font-size:14px;
+    font-weight:bold;
+    padding:6px 28px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+
+#about button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+    background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+    background-color:#dfdfdf;
+}
+
+@media (max-width:991px) {
+    #about > #div-about > .intro {
+        width: 60%;
+    }
+
+}
+@media (max-width:798px) {
+    #about > #div-about > button {
+        border-radius: 0;
+    }
+    #about > #div-about > img {
+        height: 350px;
+    }
+
+
+}
+@media (max-width:740px) {
+    #about > #div-about > img {
+        height: 400px;
+        width: 60%;
+    }
+    #about > #div-about > .intro {
+        width: 90%;
+    }
+
+
+}
+
+/*----ABOUT SECTION END----*/
+
+
+/*=======================
+SKILLS CSS
+========================*/
+
+/*MAIN*/
+
+#skills {
+            text-align: center;
+            padding-bottom: 32px;
+            color: white;
+        }
+
+ 
+/*=======================
+CONTACT CSS
+========================*/
+/*Main Section Of Contact*/
+
+section  .main-contact {
+    background-color: var(--mainColor);
+    text-align : center;
+    color: #232;
+}
+
+/*h1 element of Secton Contact*/
+section .main-contact > h1 {
+    font-family: Berlin Sans FB, Bodoni MT Condensed, sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+
+.contact-border {
+    border: 2px solid var(--mainColor);
+    padding-bottom: 20px;
+}
+
+/*========= FEEDBACK SECTION=======*/
+#feedback {
+    border:2px solid #232;
+    border-radius:5px;
+    font-family: georgia, sans-serif;
+    font-size: 14px;
+    color: #232;
+    padding: 10px 20px 10px 0;
+    background-image: url("../images/teleicon.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-style: italic;
+    margin-top:20px;
+}
+#feedback ul {
+list-style:none;
+}
+#feedback >  ul li:last-child {
+text-align: center;
+}
+#feedback > ul li:first-child {
+    margin: 13px 0;
+    text-align: center;
+}
+/*=====Feedback Input======*/
+#feedback input#name {
+background: url(../images/person.png) 10px / 17px no-repeat;
+}
+#feedback input#email {
+background: url(../images/email.png) 10px / 18px no-repeat;
+}
+#feedback textarea#comment {
+background: url(../images/opinion.png) 6px / 26px no-repeat;
+}
+#name, #email, #comment{
+width: 90%;
+margin-bottom: 25px;
+padding-left: 40px;
+height: 25px;
+border: 1px solid black;
+opacity: 0.8;
+}
+#comment {
+height: 60px;
+margin-bottom: 20px;
+opacity: 1;
+}
+#email {
+opacity: 1;
+}
+
+/*===========================================
+    feedback Button Css Styling
+=============================================*/
+
+button {
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 10px;
+    font-family: "Berlin Sans FB", cursive;
+    font-size: 12pt;
+    padding: 10px;
+    color: #232;
+    text-align: center;
+    border: 3px solid var(--mainColor);
+    text-decoration: none;
+}
+
+    /*=============================
+        CONTACT AND EMAIL SECTION
+    ==============================*/
+.contact-smile {
+    margin: 20px 0 0 15px ;
+    border: 2px solid #232;
+    width: 47%;
+    height: 427px;
+    text-align: center;
+    border-radius: 5px;
+}
+.contact-smile i {
+    display: inline;
+}
+.contact-smile a {
+    color: #232;
+}
+/*hr line between phone and email */
+.hr-contact {
+    width: 20%;
+    border: 3px solid var(--mainColor);
+}
+/*mobile icon image*/
+.fa-mobile {
+    display: inline;
+    color: #232;
+    width: 25px;
+}
+/*Mobile Number OR Emial Css*/
+.mob-email {
+    display: inline;
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px){
+
+    /*Main Section Of Contact*/
+    #contact {
+        margin: 0 10px;
+    }
+    section  .main-contact {
+        background-color: var(--mainColor);
+        text-align : center;
+        color: #232;
+    }
+
+    /*h1 element of Secton Contact*/
+    section .main-contact > h1 {
+        font-family: Berlin Sans FB, Bodoni MT Condensed, sans-serif;
+        color: white;
+        margin: 0;
+        text-transform: capitalize;
+    }
+
+    .contact-border {
+        border: 2px solid var(--mainColor);
+        padding-bottom: 20px;
+    }
+
+    /*CONTACT AND EMAIL SECTION*/
+    .contact-smile {
+        margin: 20px 15px;
+        border: 2px solid #232;
+        width: 96%;
+        height: 427px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+
+    /*Mobile Number OR Emial Css*/
+    .mob-email {
+        display: block;
+        position: static;
+        text-align: center;
+    }
+}
+
+/*=======================
+portfolio css
+========================*/
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
+.transition-mc,
+.button.button-primary,
+.item-cont a .item-content,
+.item-cont a .item-content .text-cont,
+.item-cont a figure:after {
+  -webkit-transition: all 800ms ease-in-out;
+  -o-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+
+
+.item-cont {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 30px;
+  height: 50%;
+  width: 100%;
+}
+
+.item-cont a {
+  display: block;
+  position: relative;
+  color: #F5A623;
+  border-color: #fff;
+  font-size: 24px;
+}
+
+.item-cont a .item-content {
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.item-cont a .item-content:before {
+  border-top: 3px double;
+  border-bottom: 3px double;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  opacity: 0;
+}
+
+.item-cont a .item-content:after {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  opacity: 0;
+}
+
+.item-cont a .item-content:before,
+.item-cont a .item-content:after {
+  border-color: #fff;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.item-cont a .item-content .text-cont {
+  width: 100%;
+  opacity: 0;
+}
+
+.item-cont a .item-content .align-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+
+
+
+.item-cont a figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.item-cont a figure:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  background-color: var(--mainColor);
+  opacity: 0;
+}
+
+.item-cont a figure img {
+  max-width: 115%;
+  height: 415px;
+  display: block;
+}
+@media (max-width: 1014px) {
+    .item-cont a figure img {
+  max-width: 100%;
+  height: 450px;
+  display: block;
+}
+}
+.item-cont a:hover figure {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.item-cont a:hover figure:after {
+  opacity: .8;
+}
+
+.item-cont a:hover .item-content {
+  opacity: .8;
+}
+
+.item-cont a:hover .item-content:before,
+.item-cont a:hover .item-content:after {
+  border-color: #fff;
+}
+
+.item-cont a:hover .item-content:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.item-cont a:hover .item-content:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.item-cont a:hover .item-content .text-cont {
+  opacity: 1;
+}
+.item-cont .item-content .text-cont p {
+    color: white;
+     position: relative;
+      top: -10px;
+}
+.item-cont .item-content .text-cont h4 {
+    font-weight: 800;
+     position: relative;
+      top: -10px;
+       color: #fff;
+}
+
+/*======================
+NAVBAR CSS
+========================*/
+/*navbar Background color */
+.navbar-inverse {
+    background-color: #292c2f;
+}
+
+/*Navbar logo hover effect*/
+.navbar-brand:hover {
+ text-indent : -9px;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+    transition: all .35s; 
+    }
+
+/*Navbar link styling*/
+.navbar-inverse .navbar-brand:focus,.navbar-inverse .navbar-brand {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+a:hover, a:focus {
+    color: var(--mainColor);
+}
+
+/*Navbar logo MOiZ color*/
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+        color:var(--mainColor);
+        background-color: transparent;
+    }
+
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+/*Navbar logo size*/
+#logo img {
+    width: 30px;
+    display: inline;
+}
+#logo p {
+    font-size: 10px;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 12px;
+    left: 33px;
+}
+
+/*Navbar Link effect*/
+.cl-effect-5 a span::before {
+	top: 160%;
+}
+.cl-effect-5 a:hover span,
+.cl-effect-5 a:focus span {
+	-webkit-transform: translateY(-160%);
+	-moz-transform: translateY(-160%);
+	transform: translateY(-160%);
+}
+
+/*=======================
+FOOTER
+========================*/
+
+/*--FOOTER--*/
+
+
+#footer {
+    background-color: #292c2f;
+    color: white;
+    height: 250px;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    #footer{
+        text-align: center;
+        padding-bottom: 12px;
+        height: auto;
+    }
+}
+/*Social Link*/
+.btn-social {
+border: 1px dotted white;
+border-radius: 20px;
+padding: 10px;
+}
+.social li {
+height: 45px;
+width: 60px;
+}
+@media (min-width: 992px) {
+    .social li {
+        height: 45px;
+        width: 55px;
+    }
+
+    h3.web {
+        text-align: center;
+    }
+}
+@media (min-width: 1212px) {
+    .social li {
+        height: 40px;
+        width: 55px;
+    }
+}
+.fb {
+color: #3b5998;
+}
+.fb:hover {
+color: white;
+background-color: #3b5998;
+}
+.google {
+color: #dc4e41;
+}
+.google:hover {
+color: white;
+background-color: #dc4e41;
+}
+.twitter {
+color: #55acee;
+}
+.twitter:hover {
+color: white;
+background-color: #55acee;
+}
+.linkedin {
+color: #0077b5;
+}
+.linkedin:hover {
+color: white;
+background-color: #0077b5;
+}
+.dribbble {
+color: #ea4c89;
+}
+.dribbble:hover {
+color: white;
+background-color: #ea4c89;
+}
+.git {
+color: #bd2c00;
+}
+.git:hover {
+color: white;
+background-color: #bd2c00;
+}
+/*social Link End*/
+
+/*CopyRight*/
+.copy {
+    background-color: var(--mainColor);
+    color: white;
+}
+.copy p {
+padding-top: 2px;
+}
+.copy p a {
+color: white;
+font-weight: bold;
+}
+.copy p a:hover {
+    color: #292c2f;
+    text-decoration: none;
+}
+/*CopyRight End*/
+
+
+/*=======================
+PROGRESS CSS
+========================*/
+
+/**
+* Function to generate procentual progress classes
+* .p-1 1% -> p-100 100%
+**/
+.p-1 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(93.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-2 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(97.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-3 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(100.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-4 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(104.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-5 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(108deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-6 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(111.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-7 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(115.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-8 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(118.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-9 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(122.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-10 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(126deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-11 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(129.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-12 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(133.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-13 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(136.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-14 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(140.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-15 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(144deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-16 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(147.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-17 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(151.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-18 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(154.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-19 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(158.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-20 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(162deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-21 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(165.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-22 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(169.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-23 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(172.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-24 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(176.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-25 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(180deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-26 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(183.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-27 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(187.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-28 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(190.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-29 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(194.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-30 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(198deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-31 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(201.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-32 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(205.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-33 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(208.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-34 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(212.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-35 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(216deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-36 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(219.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-37 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(223.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-38 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(226.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-39 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(230.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-40 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(234deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-41 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(237.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-42 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(241.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-43 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(244.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-44 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(248.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-45 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(252deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-46 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(255.6deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-47 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(259.2deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-48 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(262.8deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-49 {
+    background-image: linear-gradient(90deg, #efefef 50%, transparent 50%, transparent), linear-gradient(266.4deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-50 {
+    background-image: linear-gradient(-90deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-51 {
+    background-image: linear-gradient(-86.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-52 {
+    background-image: linear-gradient(-82.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-53 {
+    background-image: linear-gradient(-79.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-54 {
+    background-image: linear-gradient(-75.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-55 {
+    background-image: linear-gradient(-72deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-56 {
+    background-image: linear-gradient(-68.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-57 {
+    background-image: linear-gradient(-64.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-58 {
+    background-image: linear-gradient(-61.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-59 {
+    background-image: linear-gradient(-57.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-60 {
+    background-image: linear-gradient(-54deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-61 {
+    background-image: linear-gradient(-50.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-62 {
+    background-image: linear-gradient(-46.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-63 {
+    background-image: linear-gradient(-43.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-64 {
+    background-image: linear-gradient(-39.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-65 {
+    background-image: linear-gradient(-36deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-66 {
+    background-image: linear-gradient(-32.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-67 {
+    background-image: linear-gradient(-28.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-68 {
+    background-image: linear-gradient(-25.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-69 {
+    background-image: linear-gradient(-21.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-70 {
+    background-image: linear-gradient(-18deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-71 {
+    background-image: linear-gradient(-14.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-72 {
+    background-image: linear-gradient(-10.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-73 {
+    background-image: linear-gradient(-7.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-74 {
+    background-image: linear-gradient(-3.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-75 {
+    background-image: linear-gradient(0deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-76 {
+    background-image: linear-gradient(3.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-77 {
+    background-image: linear-gradient(7.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-78 {
+    background-image: linear-gradient(10.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-79 {
+    background-image: linear-gradient(14.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-80 {
+    background-image: linear-gradient(18deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-81 {
+    background-image: linear-gradient(21.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-82 {
+    background-image: linear-gradient(25.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-83 {
+    background-image: linear-gradient(28.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-84 {
+    background-image: linear-gradient(32.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-85 {
+    background-image: linear-gradient(36deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-86 {
+    background-image: linear-gradient(39.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-87 {
+    background-image: linear-gradient(43.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-88 {
+    background-image: linear-gradient(46.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-89 {
+    background-image: linear-gradient(50.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-90 {
+    background-image: linear-gradient(54deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-91 {
+    background-image: linear-gradient(57.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-92 {
+    background-image: linear-gradient(61.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-93 {
+    background-image: linear-gradient(64.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-94 {
+    background-image: linear-gradient(68.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-95 {
+    background-image: linear-gradient(72deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-96 {
+    background-image: linear-gradient(75.6deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-97 {
+    background-image: linear-gradient(79.2deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-98 {
+    background-image: linear-gradient(82.8deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-99 {
+    background-image: linear-gradient(86.4deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+.p-100 {
+    background-image: linear-gradient(90deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+
+.avatar-container {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 130px;
+    width: 130px;
+    padding: 0;
+    margin: 1rem auto;
+    border: none;
+    background: #efefef;
+    cursor: pointer;
+}
+.avatar-container .avatar {
+    display: block;
+    margin: 15px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    z-index: 100;
+}
+.avatar-container .avatar img {
+    width: 100%;
+    height: auto;
+}
+.avatar-container .info {
+    display: none;
+    font-weight: bold;
+    font-size:27px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(188, 83, 255, 0.3);
+    color: black;
+    z-index: 1000;
+}
+.avatar-container .info.js-active {
+    display: table;
+}
+.avatar-container .info .info-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*=======================
+HEADER
+========================*/
+
+
+header {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url(../images/header1.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+header:hover {
+    height: 800px;
+    text-align: center;
+}
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 200px 0;
+    margin: auto;
+    text-align: center;
+}
+.color {
+    color: var(--mainColor);
+    font-weight: bold;
+}
+header > .header-content > .p{
+    width: 85%;
+}
+header .header-content h1:nth-child(1) {
+text-transform: uppercase;
+font-size: 60px;
+font-weight: 900;
+width: 100%;
+color: #fff7fb;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+header .header-content hr {
+width: 200px;
+border: 3px solid var(--mainColor);
+}
+header .header-content p {
+    padding-bottom: 50px;
+    align-content: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media (max-width: 998px){
+    header {
+        height: 720px;
+    }
+    header:hover {
+        height: 720px;
+    }
+}

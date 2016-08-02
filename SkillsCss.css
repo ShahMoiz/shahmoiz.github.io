@@ -1,0 +1,55 @@
+#skills  p {
+    display: inline-block;
+    color: white;
+}
+#skills  h1 {
+    display: inline-block;
+}
+.container > h1 {
+    color: black;
+}
+.cmd {
+    padding: 0 0 0 40px;
+    background: url(images/bg-triangle.png) 10%/10% no-repeat;
+    background-position: left;
+    background-size: 40px 40px;
+    text-align: left;
+}
+#skills {
+    color: white;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;}
+
+.js {
+background: url(images/javascript.png) no-repeat;
+    background-size: 70px 40px;
+}
+.html {
+background: url(images/HTML5_logo_and_wordmark.svg.png) no-repeat;
+    background-size: 60px 50px;
+}
+.css {
+    background: url(images/CSS3.png) no-repeat;
+    background-size: 50px 50px;
+}
+.bootstrap {
+background: url(images/icon-bootstrap.png) no-repeat;
+    background-size: 55px 45px;
+}
+.jquary {
+background: url(images/jquery_logo.png) no-repeat;
+    background-size: 70px 60px;
+}
+.ts {
+background: url(images/javascript.png) no-repeat;
+    background-size: 70px 40px;
+}
+
+.js, .html, .css, .jquary, .bootstrap, .ts{
+    padding: 0 0 0 60px;
+    background-position: left;
+    text-align: left;
+}

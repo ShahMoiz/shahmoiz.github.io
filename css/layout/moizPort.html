@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="Css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="header.css" rel="stylesheet" type="text/css">
+    <link href="Css/animate.min.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            background: url(images/bg.jpg);
+            color: white;
+            margin: 0;
+            text-align: center;
+        }
+        .main-content {
+            padding: 100px 0 0 0 ;
+            /*background-image: url(images/Life%20is%20Beautiful.jpg);*/
+            /*background-repeat: no-repeat;*/
+            /*background-position: 250px 50px;*/
+            /*height: 456px;*/
+        }
+        div:target {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div>        <!--class="container-fluid";-->
+        <header id="header" class="animated bounceInDown" onmouseover="visibles()" onmouseout="dltClass()">                                <!--Class="header-portfolio" OR "row";-->
+            <div>    <!--Class="col-sm-12"-->
+                <div></div>                            <!--ID="header-logo" AND Class="heading OR col-sm-4"-->
+                <!--<div class="col-sm-3"></div>-->
+                <div class="col-sm-7">
+                <nav id="nav" class="nav" style="color:white;">
+
+                    <a href="#home">Home</a> / <a href="javascript:void(0)">My Skills</a> /
+                    <a href="javascript:void(0)">About</a> / <a href="javascript:void(0)">Contact</a>
+
+                </nav>
+                </div>
+            </div>
+        </header>
+        <div id="hide" class="text"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        <div class="main-content row" id="home" role="main">
+                <div class="col-sm-12">
+                <div class="col-sm-offset-5 col-sm-7">
+                    <h1>Abdul Moiz</h1>
+                </div>
+                    </div>
+
+
+
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+    var header = document.getElementsByTagName('header')[0];
+    header.setAttribute('class', 'header-portfolio');
+    header.setAttribute('class', 'row');
+
+    var div = document.getElementsByTagName('div');
+    div[0].setAttribute('class', 'container-fluid');
+
+
+    div[1].setAttribute('class', 'col-sm-12');
+
+
+    div[2].setAttribute('id', 'header-logo');
+    div[2].setAttribute('class', 'heading');
+    div[2].setAttribute('class', 'col-sm-5');
+//    alert(div[2].attributes.length);
+
+    var heading = document.getElementById("header-logo");
+    var addH1 = document.createElement('h1');
+    var addAnchor = document.createElement('a');
+    addAnchor.setAttribute('href', 'javascript:void(0)');
+    addH1.appendChild(addAnchor);
+    heading1 = heading.firstChild;
+    heading.insertBefore(addH1, heading1);
+    addAnchor.innerHTML = '<a><img src="images/abdul.jpg">Abdul<span>Moiz</span></a>';
+
+    //                    var imga = imga.firstChild;
+    //                    imga.innerHTML = '<a href="javascript:void(0)" id="myname"><img id="myImage" onclick="myImage()"class="myImage">Abdul<span>Moiz</span></a>';
+    //                    var imga = imga.childNodes[1];
+    //                    var imga = imga.nodeName;
+    //                    alert(imga)
+    //                    alert(imga.hasAttributes("id"));
+    //                   imga.setAttribute("src", "Images/abdul.jpg");
+    //                    alert(imga)
+    //                    function myImage() {
+    //
+    //
+    //                        imga.setAttribute("src", "Images/abdul.jpg");
+    //                    }
+    //                    alert(imga);
+
+
+
+    var hidden = document.getElementById("hide");
+    function visibles(){
+        hidden.setAttribute("class", "visible");
+        hidden.innerHTML = "First Solve The Problem..Then, Right the Code - <small class='source Title'><i>John Johnson</i></small>";
+    }
+    function dltClass() {
+        hidden.setAttribute("class", "hidden");
+    }
+
+    function scroll() {
+        var header = document.getElementById('header');
+        var ypos = window.pageYOffset;
+        if (ypos > 100) {
+            header.style.height = '50px'
+        }
+        else {
+            header.style.height = '70px'
+        }
+    }
+    window.addEventListener("scroll",scroll)
+</script>

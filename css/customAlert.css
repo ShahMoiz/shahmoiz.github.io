@@ -1,0 +1,93 @@
+/*Main Alert Box*/
+#dialogoverlay {
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top:0;
+    left:0;
+    background:#fff;
+    width:100%;
+    z-index:10;
+}
+/*Main ALert Content Div*/
+#dialogBox {
+    display: none;
+    position: fixed;
+    background:#000;
+    width:550px;
+    z-index:10;
+}
+
+#dialogBox > div {
+    background: #fff;
+    margin: 8px;
+}
+
+/*Content div Header*/
+#dialogBox   #dialogBoxHead {
+    background: var(--mainColor);
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+/*Content div Body*/
+#dialogBox  #dialogBoxBody {
+    background: #292c2f;
+    padding: 20px;
+    color: #fff;
+}
+/*Content div Footer*/
+#dialogBox  #dialogBoxFooter {
+    background: var(--mainColor);
+    padding: 10px;
+    text-align: right;
+}
+
+/*Header div content Image*/
+.web-img a {
+    color: var(--mainColor);
+}
+.web-img > img {
+    width: 180px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+/*Header Description About Website*/
+.description {
+    width: 320px;
+    position: absolute;
+    top:75px;
+    right: 10px;
+    text-align: right;
+}
+.description h3 {
+    color: white;
+    font-family: georgia, sans-serif;
+    text-align: left;
+}
+.description p {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.description a {
+    color: #fff;
+    font-family: georgia, sans-serif;
+    border: 1px solid var(--mainColor);
+    padding: 5px;
+    margin: 10px 0 0 10px;
+    horiz-align: right;
+}
+/*Footer Div Button "Continue"*/
+.button-ok {
+    border-radius: 2px;
+    background-color: white;
+    font-family: "Berlin Sans FB", cursive;
+    font-size: 16px;
+    padding: 3px 0;
+    width: 80px;
+    color: #232;
+    text-align: center;
+    box-shadow: 1px 1px 1px #000;
+}

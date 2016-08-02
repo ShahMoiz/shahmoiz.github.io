@@ -1,0 +1,104 @@
+/*--FOOTER--*/
+
+
+#footer {
+    background-color: #292c2f;
+    color: white;
+    height: 250px;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    #footer{
+        text-align: center;
+        padding-bottom: 12px;
+        height: auto;
+    }
+}
+/*Social Link*/
+.btn-social {
+border: 1px dotted white;
+border-radius: 20px;
+padding: 10px;
+}
+.social li {
+height: 45px;
+width: 60px;
+}
+@media (min-width: 992px) {
+    .social li {
+        height: 45px;
+        width: 55px;
+    }
+
+    h3.web {
+        text-align: center;
+    }
+}
+@media (min-width: 1212px) {
+    .social li {
+        height: 40px;
+        width: 55px;
+    }
+}
+.fb {
+color: #3b5998;
+}
+.fb:hover {
+color: white;
+background-color: #3b5998;
+}
+.google {
+color: #dc4e41;
+}
+.google:hover {
+color: white;
+background-color: #dc4e41;
+}
+.twitter {
+color: #55acee;
+}
+.twitter:hover {
+color: white;
+background-color: #55acee;
+}
+.linkedin {
+color: #0077b5;
+}
+.linkedin:hover {
+color: white;
+background-color: #0077b5;
+}
+.dribbble {
+color: #ea4c89;
+}
+.dribbble:hover {
+color: white;
+background-color: #ea4c89;
+}
+.git {
+color: #bd2c00;
+}
+.git:hover {
+color: white;
+background-color: #bd2c00;
+}
+/*social Link End*/
+
+/*CopyRight*/
+.copy {
+    background-color: #bc53ff;
+    color: white;
+}
+.copy p {
+padding-top: 2px;
+}
+.copy p a {
+color: white;
+font-weight: bold;
+}
+.copy p a:hover {
+    color: #292c2f;
+    text-decoration: none;
+}
+/*CopyRight End*/

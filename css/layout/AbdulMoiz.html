@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="Css/bootstrap-theme.mincss" rel="stylesheet" type="text/css">
+    <link href="Css/bootstrap.mincss" rel="stylesheet" type="text/css">
+    <link href="Css/home.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="container">
+
+    <header class="header-user-dropdown" onmouseover="visibles()" onmouseout="dltClass()">
+
+            <div class="header-limiter">
+                <div class="logo">
+                    <h1><a href="javascript:void(0)"><img src="Images/abdul.jpg" class="myImage">Abdul<span>Moiz</span></a></h1>
+                </div>
+
+                <nav class="col-md-8">
+
+                    <a href="javascript:void(0)">Home</a>
+
+                        <span class="header-dropdown">
+                            <a href="javascript:void(0)" class="skills">My Skills <span class="header-top-dropdown">***</span></a>
+
+                                <ul>
+                                    <li><a href="javascript:void(0)">Progress</a></li>
+                                    <li><a href="javascript:void(0)">Complete</a></li>
+                                </ul>
+                        </span>
+
+                    <a href="javascript:void(0)">About</a>
+                    <a href="javascript:void(0)">Contact</a>
+
+                </nav>
+
+            </div>
+
+        </header>
+    <div id="hide" class="text"></div>
+</div>
+</body>
+
+<script>
+    var hidden = document.getElementById("hide");
+    function visibles(){
+        hidden.setAttribute("class", "visible");
+        hidden.innerHTML = "First Solve The Problem..Then, Right the Code - <span><i>John Johnson</i></span>";
+    }
+    function dltClass() {
+        hidden.setAttribute("class", "hidden");
+    }
+</script>
+</html>
