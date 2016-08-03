@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/animate.min.css" type="text/css"> 
 	  <!-- AniCollection.css library -->
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
-    <script src="/js/modernizr.custom.js"></script>
+    <script src="js/modernizr.custom.js"></script>
     <script>
         var mdtc = '<div class="web-img"><img src="images/1.jpg"/><br>Link:<a href="">https://www.mdtc.com.ua</a> </div><div class="description"><h3>Short Description</h3><p>MDTC in Under Construction.. This is a Single Page Website and this Website Concept is to provide the highest quality security products at the most competitive pricing in the industry to security equipment companies and national retail outlets. </p> <a type="button" href="">Go to Website</a> </div>';
         var golide = '<div class="web-img"><img src="images/2.jpg"/><br>Link:<a href="">golidewatches.netau.net</a> </div><div class="description"><h3>Short Description</h3><p>Golide Watches International (GWT) in Under Construction.. This is MultiPage Website and this Website Concept is to sell online watches of different Watches Brands and make easy to search all watches in one time.. </p> <a type="button" href="">Go to Website</a> </div>';
@@ -439,7 +439,7 @@
     </style>
 
 
-    <script src="/js/prefixfree.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
 </head>
 <body id="body">
         <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top">
@@ -474,13 +474,52 @@
                                 <a href="#contact" class="page-scroll animated bounce"><span data-hover="Contact">Contact</span></a>
                             </li>
                             <li>
-                                <a  style="height:3em;" href="javascript:void(0)" onclick="Alert.render('Quick Contact', 'Sorry :( <br>The Quick Contact feachers is Under Development')" class="page-scroll animated bounce"><i class="fa fa-envelope-o"></i></a>
+                                <a  style="height:3em;" data-toggle="modal" data-target="#myModal" href="#myModal" class="page-scroll animated bounce"><i class="fa fa-envelope-o"></i></a>
                             </li>
                         </ul>
                     </div>
 
                 </div>
         </nav>
+
+        	<!-- MODAL FOR CONTACT -->
+	<!-- Modal -->
+	<div  class="modal fade" style="" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div  class="modal-dialog">
+	    <div class="modal-content">
+	      <div style="background-color: var(--mainColor);" class="modal-header">
+	        <button type="button" class="close" style="color: black;" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 style="color: white;" class="modal-title" id="myModalLabel">Quick Contact</h4>
+	      </div>
+	      <div class="modal-body">
+		        <div class="row text-center centered">
+                    <div class="col-sm-6">
+                        <h4><i class="fa fa-map-marker"></i> Location</h4>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4><i class="fa fa-mobile"></i> Mobile</h4>
+                    </div>
+                    <div class="col-sm-6">
+                            <p>
+                                3481 amil colony<br>
+                                jamshed road, irop 72500
+                            </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>+29 334 23211189</p>
+                    </div>
+		        	
+		        	<div id="mapwrap">
+		<iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?g=karachi+map&ie=UTF8&t=h&s=AARTsJoiO5kKjHOzI9MziUNwFfo94kBmcA&ll=24.87721,67.031794&spn=0.018688,0.027466&z=15&output=embed"></iframe>
+					</div>	
+		        </div>
+	      </div>
+	      <div  class="modal-footer">
+	        <button type="button" style="background-color: var(--mainColor); border: black;" class="btn btn-danger" data-dismiss="modal">Save & Go</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 
         <header id="header">
             <div class="header-content">
@@ -501,7 +540,7 @@
                 <div class="intro">
                     <img src="images/bg-triangle.png"><h3>Abdul Moiz</h3>
                     <a href="#">Web Designer & Developer</a>
-                    <p>Hi..! I'm <b>Abdul Moiz</b> and I Live in Karachi, Pakistan.. I have been a web Designer and developer since last two years. Design or Programming was my original passion.. At this point I’ve worked with HTML, CSS, JavaScript, jQuery, Bootstrap, PHP and Wordpress  </p>
+                    <p>Hi..! I'm <b>Abdul Moiz</b> and I Leave in Karachi, Pakistan.. I have been a web Designer and developer since last two years. Design or Programming was my original passion.. At this point I’ve worked with HTML, CSS, JavaScript, jQuery, Bootstrap, PHP and Wordpress  </p>
                     <p>A designer who creates a truly unique identity and applies it practically across a vast digital platform needs creative firepower, seasoned design ability, and eagerness to get their hands dirty in development. I’ve worked relentlessly to become that designer. </p>
                 <button type="button" class="button btn-info btn-block btn-sm wow shake">More Info</button>
                 </div>
@@ -638,7 +677,7 @@
       <div class="item-cont">
         <a href="javascript:void(0)">
           <figure>
-          <img src="images/as.jpg" />
+          <img src="images/8.jpg" />
           </figure>
           <div class="item-content">
             <div class="align-content">
@@ -836,7 +875,7 @@
 
 
         <!--FIXED DIV-->
-        <div class="construction text-center" style="background: crimson;padding: 5px;font-family: 'Open Sans', sans-serif;font-size: 16px;color: white;font-weight: bold;">**This Portfolio Is Under Construction.. Some Function may not working Properly**</div>
+        <div class="constructin text-center" style="background: crimson;padding: 5px;font-family: 'Open Sans', sans-serif;font-size: 16px;color: white;font-weight: bold;">**This Portfolio Is Under Construction.. Some Function may not working Properly**</div>
         <!--FIXED DIV-->
 
 
